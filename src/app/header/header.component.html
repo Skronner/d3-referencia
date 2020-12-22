@@ -6,15 +6,15 @@
 
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#">Barras</a></li>
-        <li><a href="#">Linhas</a></li>
-        <li><a href="#">Setor</a></li>
+        <li><a [routerLink]="['grafico-barra']">Barras</a></li>
+        <li><a [routerLink]="['grafico-linha']">Linhas</a></li>
+        <li><a [routerLink]="['grafico-setor']">Setor</a></li>
         <li><a href="#">Dispersão</a></li>
         <li><a href="#">Calor</a></li>
         <li><a href="#">Árvore</a></li>
         <li><a href="#">Box Plot</a></li>
-        <li><a href="#">Formas Básicas</a></li>
-      </ul>     
+        <li><a [routerLink]="['formas']">Formas Básicas</a></li>
+      </ul>
     </div>
   </div>
 </nav>
