@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { GraficoLinhaComponent } from './grafico-linha.component';
 
@@ -6,7 +6,7 @@ describe('GraficoLinhaComponent', () => {
   let component: GraficoLinhaComponent;
   let fixture: ComponentFixture<GraficoLinhaComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ GraficoLinhaComponent ]
     })
